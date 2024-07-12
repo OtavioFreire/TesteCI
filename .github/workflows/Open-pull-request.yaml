@@ -26,7 +26,6 @@ jobs:
         continue-on-error: true
         with:
           destination_branch: "development"
-          github_token: ${{ secrets.GT_TOKEN }}
           pr_label: "feature, automated pr"
           pr_title: "[#PR] ${{ github.event.head_commit.message }}"
           pr_template: ".github/PULL_REQUEST_TEMPLATE.md"
