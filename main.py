@@ -1,2 +1,2 @@
 def a:
-    print("aa")
+    print("aaaa")
