@@ -1,4 +1,4 @@
-name: Open Pull Request to main
+name: Open Pull Request to Production
 
 on:
   push:
